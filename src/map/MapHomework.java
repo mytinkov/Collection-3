@@ -32,6 +32,7 @@ public class MapHomework {
         orederedMap.put(1, "test1");
         orederedMap.put(10, "test10");
 
+
         for (Map.Entry<Integer, String> entry : orederedMap.entrySet()) {
             System.out.printf("%d:%s%n", entry.getKey(), entry.getValue());
         }
